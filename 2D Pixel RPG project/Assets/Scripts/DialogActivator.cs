@@ -14,12 +14,6 @@ public class DialogActivator : MonoBehaviour
     public string questToMark;
     public bool markComplete;
 
-    // [Header("Quest reward")]
-    // public int rewardXP;
-    // public string[] rewarditems;
-    // public bool activateRewardScreen;
-
-
     // Start is called before the first frame update
     void Start()
     {
@@ -33,7 +27,6 @@ public class DialogActivator : MonoBehaviour
         {
             DialogManager.instance.showDialog(lines, isPerson);
             DialogManager.instance.ShouldActivateQuestAtEnd(questToMark, markComplete);
-            // QuestRewardScreen();
         }
     }
 
@@ -52,8 +45,4 @@ public class DialogActivator : MonoBehaviour
             canActivate = false;
         }
     }
-
-    // public void QuestRewardScreen(){
-    //     BattleReward.instance.OpenRewardScreen(rewardXP, rewarditems);
-    // }
 }

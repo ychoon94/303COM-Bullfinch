@@ -45,37 +45,10 @@ public class GameMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        // if (gameObject.transform.GetChild(0).gameObject.activeSelf == true){
-        //         Debug.Log("the child name " + battleManager.transform.childCount);
-        //         Debug.Log("name " + battleManager.transform.GetChild(0));
-        // }
-
-        // if (Input.GetButtonDown("Fire2"))
-        // {
-        //     if (theMenu.activeInHierarchy)
-        //     {
-        //         //theMenu.SetActive(false);
-        //         //GameManager.instance.gameMenuOpen = false;
-
-        //         CloseMenu();
-        //     } else
-        //     {
-        //         theMenu.SetActive(true);
-        //         UpdateMainStats();
-        //         GameManager.instance.gameMenuOpen = true;
-        //     }
-
-        //     AudioManager.instance.PlaySFX(5);
-        // }
-
         if (Input.GetButtonDown("Fire2") && allowMenuToOpen)
         {
             if (theMenu.activeInHierarchy)
             {
-                //theMenu.SetActive(false);
-                //GameManager.instance.gameMenuOpen = false;
-
                 CloseMenu();
             } else
             {
@@ -86,27 +59,6 @@ public class GameMenu : MonoBehaviour
 
             AudioManager.instance.PlaySFX(5);
         }
-
-        // if (!battleSceneActive || !gameOverActive){
-
-        //     if (Input.GetButtonDown("Fire2"))
-        //     {
-        //         if (theMenu.activeInHierarchy)
-        //         {
-        //             //theMenu.SetActive(false);
-        //             //GameManager.instance.gameMenuOpen = false;
-
-        //             CloseMenu();
-        //         } else
-        //         {
-        //             theMenu.SetActive(true);
-        //             UpdateMainStats();
-        //             GameManager.instance.gameMenuOpen = true;
-        //         }
-
-        //         AudioManager.instance.PlaySFX(5);
-        //     }
-        // }
     }
 
     public void UpdateMainStats()

@@ -16,9 +16,6 @@ public class UIFade : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //instance = this;
-
-        //DontDestroyOnLoad(gameObject);
         if (instance == null)
         {
             instance = this; // In first scene, make us the singleton.
