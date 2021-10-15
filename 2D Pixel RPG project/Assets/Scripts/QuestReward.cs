@@ -27,6 +27,5 @@ public class QuestReward : MonoBehaviour
 
     public void OpenQuestRewardScreen(){
         BattleReward.instance.OpenRewardScreen(rewardXP, rewarditems);
-
     }
 }

@@ -120,7 +120,6 @@ public class BattleManager : MonoBehaviour
             GameManager.instance.battleActive = false;
 
             transform.position = new Vector3(Camera.main.transform.position.x, Camera.main.transform.position.y, transform.position.z);
-            // battleScene[sceneToUnlock].SetActive(true);
             battleScene.SetActive(true);
 
             AudioManager.instance.PlayBGM(0);
@@ -237,11 +236,6 @@ public class BattleManager : MonoBehaviour
                 //end battle in failure
                 StartCoroutine(GameOverCo());
             }
-
-           /* battleScene.SetActive(false);
-            AudioManager.instance.PlayBGM(3);
-            GameManager.instance.battleActive = false;
-            battleActive = false;*/
         } else
         {
             while (activeBattlers[currentTurn].currentHP == 0)
@@ -276,8 +270,6 @@ public class BattleManager : MonoBehaviour
             }
         }
         int selectedTarget = players[Random.Range(0, players.Count)];
-
-        //activeBattlers[selectedTarget].currentHP -= 30;
 
         int selectAttack = Random.Range(0, activeBattlers[currentTurn].movesAvailable.Length);
         int movePower = 0;
@@ -432,11 +424,6 @@ public class BattleManager : MonoBehaviour
             if (fleeSucess < chanceToFlee)
             {
                 //end the battle
-                //AudioManager.instance.PlayBGM(3);
-                //GameManager.instance.battleActive = false;
-                //battleActive = false;
-                //battleScene.SetActive(false);
-
                 fleeing = true;
                 GameMenu.instance.allowMenuToOpen = true;
                 StartCoroutine(EndBattleCo());
@@ -577,11 +564,9 @@ public class BattleManager : MonoBehaviour
         }
 
         UIFade.instance.FadeFromBlack();
-        // battleScene[sceneToUnlock].SetActive(false);
         battleScene.SetActive(false);
         activeBattlers.Clear();
         currentTurn = 0;
-        //GameManager.instance.battleActive = false;
         if (fleeing)
         {
             GameManager.instance.battleActive = false;
@@ -601,7 +586,6 @@ public class BattleManager : MonoBehaviour
         battleActive = false;
         UIFade.instance.FadeToBlack();
         yield return new WaitForSeconds(1.5f);
-        // battleScene[sceneToUnlock].SetActive(false);
         battleScene.SetActive(false);
 
         SceneManager.LoadScene(gameOverScene);

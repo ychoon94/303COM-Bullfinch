@@ -20,10 +20,6 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
-        //instance = this;
-
-        //DontDestroyOnLoad(gameObject);
         if (instance == null)
         {
             instance = this; // In first scene, make us the singleton.
@@ -47,25 +43,6 @@ public class GameManager : MonoBehaviour
         {
             PlayerController.instance.canMove = true;
         }
-
-        if (Input.GetKeyDown(KeyCode.J))
-        {
-            AddItem("Iron Armor");
-            AddItem("blaa blaa");
-
-            RemoveItem("Health Potion");
-            RemoveItem("bleeep");
-        }
-
-        if (Input.GetKeyDown(KeyCode.O))
-        {
-            SaveData();
-        }
-
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            LoadData();
-        }
     }
 
     public Item GetItemDetails(string itemToGrab)
@@ -77,9 +54,6 @@ public class GameManager : MonoBehaviour
                 return referenceItems[i];
             }
         }
-
-
-
         return null;
     }
 

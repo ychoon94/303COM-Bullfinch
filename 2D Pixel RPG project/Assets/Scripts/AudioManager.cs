@@ -23,9 +23,7 @@ public class AudioManager : MonoBehaviour
                 Destroy(gameObject);
             }
         }
-
         DontDestroyOnLoad(gameObject);
-
     }
 
     // Update is called once per frame
