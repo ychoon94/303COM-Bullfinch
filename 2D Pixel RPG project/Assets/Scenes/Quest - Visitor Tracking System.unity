@@ -1061,6 +1061,7 @@ MonoBehaviour:
   crateAnswer: Mark work completion
   triggerAnswer:
   - Mark work completion
+  isHigherDifficulty: 1
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -1396,6 +1397,7 @@ MonoBehaviour:
   triggerAnswer:
   - Based on location
   - Based on date
+  isHigherDifficulty: 1
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -2278,6 +2280,7 @@ MonoBehaviour:
   crateAnswer: Archive the report
   triggerAnswer:
   - Archive the report
+  isHigherDifficulty: 1
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -2411,6 +2414,7 @@ MonoBehaviour:
   - Capture the entry time of visitor
   - Capture the exit time of visitor
   - Update status of visitor
+  isHigherDifficulty: 1
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -2623,6 +2627,7 @@ MonoBehaviour:
   crateAnswer: Submit required information
   triggerAnswer:
   - Submit required information
+  isHigherDifficulty: 1
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -12030,6 +12035,7 @@ MonoBehaviour:
   triggerAnswer:
   - Based on location
   - Based on date
+  isHigherDifficulty: 1
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -12578,6 +12584,7 @@ MonoBehaviour:
   triggerAnswer:
   - Deny visitor request
   - Approve visitor request
+  isHigherDifficulty: 1
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -13090,6 +13097,7 @@ MonoBehaviour:
   - Capture the entry time of visitor
   - Capture the exit time of visitor
   - Update status of visitor
+  isHigherDifficulty: 1
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -13252,6 +13260,7 @@ MonoBehaviour:
   crateAnswer: Check status of request
   triggerAnswer:
   - Check status of request
+  isHigherDifficulty: 1
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -13952,6 +13961,7 @@ MonoBehaviour:
   crateAnswer: Generate a contingency report
   triggerAnswer:
   - Generate a contingency report
+  isHigherDifficulty: 1
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -14082,6 +14092,7 @@ MonoBehaviour:
   crateAnswer: Check visitor info
   triggerAnswer:
   - Check visitor info
+  isHigherDifficulty: 1
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -14212,6 +14223,7 @@ MonoBehaviour:
   crateAnswer: Verify visitor request
   triggerAnswer:
   - Verify visitor request
+  isHigherDifficulty: 1
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -14764,6 +14776,7 @@ MonoBehaviour:
   - Capture the entry time of visitor
   - Capture the exit time of visitor
   - Update status of visitor
+  isHigherDifficulty: 1
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -15382,6 +15395,7 @@ MonoBehaviour:
   crateAnswer: Apply for visit pass
   triggerAnswer:
   - Apply for visit pass
+  isHigherDifficulty: 1
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -16248,6 +16262,7 @@ MonoBehaviour:
   crateAnswer: Generate a report of visitor records
   triggerAnswer:
   - Generate a report of visitor records
+  isHigherDifficulty: 1
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -17075,6 +17090,7 @@ MonoBehaviour:
   - Capture the entry time of visitor
   - Capture the exit time of visitor
   - Update status of visitor
+  isHigherDifficulty: 1
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -22953,6 +22969,7 @@ MonoBehaviour:
   triggerAnswer:
   - Deny visitor request
   - Approve visitor request
+  isHigherDifficulty: 1
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -23083,6 +23100,7 @@ MonoBehaviour:
   crateAnswer: Received ticket number
   triggerAnswer:
   - Received ticket number
+  isHigherDifficulty: 1
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1

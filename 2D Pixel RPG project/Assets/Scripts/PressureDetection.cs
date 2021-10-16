@@ -9,6 +9,7 @@ public class PressureDetection : MonoBehaviour
     public string crateAnswer;
     public string[] triggerAnswer;
 
+    public bool isHigherDifficulty;
     public bool activateOnEnter, activateOnStay, activateOnExit;
 
     public bool isCorrect;
@@ -37,22 +38,31 @@ public class PressureDetection : MonoBehaviour
                 if (Vector3.Distance(transform.position,other.transform.position ) > 0.3f){
                     return;
                 } else {
-                    if (other.gameObject.name == triggerAnswer[i]){
-                        if (activateOnStay){
-                            isCorrect = true;
-                            found = true;
-                            // Debug.Log("This is IT!!!!!!!");
-                            gameObject.GetComponentInChildren<Renderer>().material.color = Color.green;
-                            other.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
-                            Destroy(this);
+                    if (isHigherDifficulty){
+                        if (other.gameObject.name == triggerAnswer[i]){
+                            if (activateOnStay){
+                                isCorrect = true;
+                                found = true;
+                                gameObject.GetComponentInChildren<Renderer>().material.color = Color.green;
+                                other.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+                                Destroy(this);
+                            }
+                        } else {
+                        isCorrect = false;
+                        gameObject.GetComponentInChildren<Renderer>().material.color = Color.red;
+                        Destroy(this);
                         }
-                    } 
-                    // else
-                    // {
-                    //     isCorrect = false;
-                        // gameObject.GetComponentInChildren<Renderer>().material.color = Color.red;
-                        // Destroy(this);
-                    // }
+                    } else {
+                        if (other.gameObject.name == triggerAnswer[i]){
+                            if (activateOnStay){
+                                isCorrect = true;
+                                found = true;
+                                gameObject.GetComponentInChildren<Renderer>().material.color = Color.green;
+                                other.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+                                Destroy(this);
+                            }
+                        }
+                    }
                 }
             }
         }
