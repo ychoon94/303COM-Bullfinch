@@ -373,6 +373,7 @@ MonoBehaviour:
   triggerAnswer:
   - Check ticket availability
   - Return ticket
+  isHigherDifficulty: 0
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -1013,7 +1014,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 192671343}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.48, y: -3.95, z: 11.10546}
+  m_LocalPosition: {x: 16.73, y: -6.98, z: 11.10546}
   m_LocalScale: {x: 0.45, y: 0.45, z: 1}
   m_Children: []
   m_Father: {fileID: 1128852465}
@@ -1699,7 +1700,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 374748030}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.69, y: -3.63, z: 11.10546}
+  m_LocalPosition: {x: 18.75, y: -3.18, z: 11.10546}
   m_LocalScale: {x: 0.45, y: 0.45, z: 1}
   m_Children: []
   m_Father: {fileID: 643645130}
@@ -1836,6 +1837,7 @@ MonoBehaviour:
   crateAnswer: Sell ticket
   triggerAnswer:
   - Sell ticket
+  isHigherDifficulty: 0
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -2063,6 +2065,7 @@ MonoBehaviour:
   crateAnswer: Make payment
   triggerAnswer:
   - Make payment
+  isHigherDifficulty: 0
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -2568,7 +2571,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 794908904}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.5, y: -4.18, z: 11.10546}
+  m_LocalPosition: {x: 0.15, y: -3.98, z: 11.10546}
   m_LocalScale: {x: 0.45, y: 0.45, z: 1}
   m_Children: []
   m_Father: {fileID: 810862091}
@@ -3019,6 +3022,7 @@ MonoBehaviour:
   crateAnswer: By credit card
   triggerAnswer:
   - By credit card
+  isHigherDifficulty: 0
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -3353,7 +3357,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 989011380}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.8, y: -3.11, z: 11.10546}
+  m_LocalPosition: {x: 0.44, y: -2.74, z: 11.10546}
   m_LocalScale: {x: 0.45, y: 0.45, z: 1}
   m_Children: []
   m_Father: {fileID: 1899574382}
@@ -3587,7 +3591,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 999960473}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.87, y: -3.91, z: 11.10546}
+  m_LocalPosition: {x: -6.21, y: -4.36, z: 11.10546}
   m_LocalScale: {x: 0.45, y: 0.45, z: 1}
   m_Children: []
   m_Father: {fileID: 1035276949}
@@ -3797,6 +3801,7 @@ MonoBehaviour:
   crateAnswer: Print receipt
   triggerAnswer:
   - Print receipt
+  isHigherDifficulty: 0
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -4103,6 +4108,7 @@ MonoBehaviour:
   triggerAnswer:
   - Check ticket availability
   - Return ticket
+  isHigherDifficulty: 0
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -4355,7 +4361,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1173241495}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.53, y: -4.08, z: 11.10546}
+  m_LocalPosition: {x: -2.7, y: -9.25, z: 11.10546}
   m_LocalScale: {x: 0.45, y: 0.45, z: 1}
   m_Children: []
   m_Father: {fileID: 1967585062}
@@ -4532,7 +4538,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1179551050}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.99, y: -4.01, z: 11.10546}
+  m_LocalPosition: {x: 10.35, y: -7.95, z: 11.10546}
   m_LocalScale: {x: 0.45, y: 0.45, z: 1}
   m_Children: []
   m_Father: {fileID: 1628501864}
@@ -4742,6 +4748,7 @@ MonoBehaviour:
   crateAnswer: Check ticket info
   triggerAnswer:
   - Check ticket info
+  isHigherDifficulty: 0
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -4873,6 +4880,7 @@ MonoBehaviour:
   triggerAnswer:
   - Show ticket availability
   - Generate monthly report
+  isHigherDifficulty: 0
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -5207,7 +5215,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1283196118}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.15, y: -3.07, z: 11.10546}
+  m_LocalPosition: {x: 6.66, y: -10.62, z: 11.10546}
   m_LocalScale: {x: 0.45, y: 0.45, z: 1}
   m_Children: []
   m_Father: {fileID: 1819004293}
@@ -5384,7 +5392,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1296470685}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.25, y: -3.39, z: 11.10546}
+  m_LocalPosition: {x: -3.13, y: -11.67, z: 11.10546}
   m_LocalScale: {x: 0.45, y: 0.45, z: 1}
   m_Children: []
   m_Father: {fileID: 1757310002}
@@ -5439,6 +5447,7 @@ MonoBehaviour:
   crateAnswer: By cash
   triggerAnswer:
   - By cash
+  isHigherDifficulty: 0
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -5570,6 +5579,7 @@ MonoBehaviour:
   triggerAnswer:
   - Deny entrance
   - Approve entrance
+  isHigherDifficulty: 0
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -6200,7 +6210,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1397903339}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.5, y: -4.18, z: 11.10546}
+  m_LocalPosition: {x: 15.73, y: -9.92, z: 11.10546}
   m_LocalScale: {x: 0.45, y: 0.45, z: 1}
   m_Children: []
   m_Father: {fileID: 606399955}
@@ -15171,6 +15181,7 @@ MonoBehaviour:
   triggerAnswer:
   - Show ticket availability
   - Generate monthly report
+  isHigherDifficulty: 0
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -15505,7 +15516,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1611977412}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.77, y: -0.45, z: 11.10546}
+  m_LocalPosition: {x: 13.71, y: -0.78, z: 11.10546}
   m_LocalScale: {x: 0.45, y: 0.45, z: 1}
   m_Children: []
   m_Father: {fileID: 2063615968}
@@ -15658,6 +15669,7 @@ MonoBehaviour:
   crateAnswer: Buy ticket
   triggerAnswer:
   - Buy ticket
+  isHigherDifficulty: 0
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -15936,6 +15948,7 @@ MonoBehaviour:
   triggerAnswer:
   - Deny entrance
   - Approve entrance
+  isHigherDifficulty: 0
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -16220,7 +16233,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1826828341}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.73, y: -4.02, z: 11.10546}
+  m_LocalPosition: {x: 1.57, y: 4.01, z: 11.10546}
   m_LocalScale: {x: 0.45, y: 0.45, z: 1}
   m_Children: []
   m_Father: {fileID: 1369599636}
@@ -16605,7 +16618,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1842208145}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.5, y: -4.18, z: 11.10546}
+  m_LocalPosition: {x: 22.41, y: -6.89, z: 11.10546}
   m_LocalScale: {x: 0.45, y: 0.45, z: 1}
   m_Children: []
   m_Father: {fileID: 147660039}

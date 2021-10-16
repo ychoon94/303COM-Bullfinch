@@ -484,6 +484,7 @@ MonoBehaviour:
   - Lodge complain
   - Check complaint history
   - Appeal complaint
+  isHigherDifficulty: 0
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -614,6 +615,7 @@ MonoBehaviour:
   crateAnswer: Check list of complaint
   triggerAnswer:
   - Check list of complaint
+  isHigherDifficulty: 0
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -1127,7 +1129,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 636421367}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.28, y: -2.23, z: 11.10546}
+  m_LocalPosition: {x: 5.23, y: -10.76, z: 11.10546}
   m_LocalScale: {x: 0.45, y: 0.45, z: 1}
   m_Children: []
   m_Father: {fileID: 112766019}
@@ -3828,7 +3830,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 957599053}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.33, y: -8.1, z: 11.10546}
+  m_LocalPosition: {x: 2.6, y: -8.67, z: 11.10546}
   m_LocalScale: {x: 0.45, y: 0.45, z: 1}
   m_Children: []
   m_Father: {fileID: 1270790295}
@@ -4005,7 +4007,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 969671578}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.77, y: -0.45, z: 11.10546}
+  m_LocalPosition: {x: 8.17, y: -8.49, z: 11.10546}
   m_LocalScale: {x: 0.45, y: 0.45, z: 1}
   m_Children: []
   m_Father: {fileID: 1873272786}
@@ -4182,7 +4184,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 973590622}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.03, y: -0.87, z: 11.10546}
+  m_LocalPosition: {x: 14.89, y: -6.78, z: 11.10546}
   m_LocalScale: {x: 0.45, y: 0.45, z: 1}
   m_Children: []
   m_Father: {fileID: 1958426947}
@@ -6205,7 +6207,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1146328452}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.5, y: -4.18, z: 11.10546}
+  m_LocalPosition: {x: 9.82, y: -11.11, z: 11.10546}
   m_LocalScale: {x: 0.45, y: 0.45, z: 1}
   m_Children: []
   m_Father: {fileID: 1538459550}
@@ -15778,7 +15780,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1252127602}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.47, y: -4.24, z: 11.10546}
+  m_LocalPosition: {x: 3.88, y: -6.95, z: 11.10546}
   m_LocalScale: {x: 0.45, y: 0.45, z: 1}
   m_Children: []
   m_Father: {fileID: 2118924477}
@@ -16070,6 +16072,7 @@ MonoBehaviour:
   - Lodge complain
   - Check complaint history
   - Appeal complaint
+  isHigherDifficulty: 0
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -16431,6 +16434,7 @@ MonoBehaviour:
   crateAnswer: Mark work completion
   triggerAnswer:
   - Mark work completion
+  isHigherDifficulty: 0
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -16618,6 +16622,7 @@ MonoBehaviour:
   crateAnswer: Sent in worker
   triggerAnswer:
   - Sent in worker
+  isHigherDifficulty: 0
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1
@@ -17614,6 +17619,7 @@ MonoBehaviour:
   - Lodge complain
   - Check complaint history
   - Appeal complaint
+  isHigherDifficulty: 0
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 1

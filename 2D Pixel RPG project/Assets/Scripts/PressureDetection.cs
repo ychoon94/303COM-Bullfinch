@@ -66,11 +66,9 @@ public class PressureDetection : MonoBehaviour
                 }
             }
         }
-
         if (!found) {
             isCorrect = false;
             gameObject.GetComponentInChildren<Renderer>().material.color = Color.red;
-            // Destroy(this);
         }
     }
 
