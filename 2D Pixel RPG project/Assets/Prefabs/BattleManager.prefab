@@ -16323,15 +16323,15 @@ MonoBehaviour:
     moveCost: 0
     theEffect: {fileID: 6220827401856237126, guid: 2ddbaeeaf9cee884299d22b22da66080, type: 3}
   - moveName: Fire
-    movePower: 50
+    movePower: 22
     moveCost: 5
     theEffect: {fileID: 5390313630812771140, guid: 5ed61fbe5e9eccc4eb20a1e3e5840070, type: 3}
   - moveName: Ice
-    movePower: 65
+    movePower: 17
     moveCost: 5
     theEffect: {fileID: 4044239217753700394, guid: c36bf474c8dc3c941979a205810ae9ee, type: 3}
   - moveName: Plasma
-    movePower: 85
+    movePower: 25
     moveCost: 10
     theEffect: {fileID: 6496717966705682770, guid: 046d9a3e202f58442948a0af11e480a8, type: 3}
   enemyAttackEffect: {fileID: 6079418597137416393, guid: b0c84f015413fbb4b946c6cea917a3f0, type: 3}

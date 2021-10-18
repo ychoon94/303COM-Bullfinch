@@ -16738,13 +16738,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - Communicate with the user of the system to understand their need.
-  - Every crate has their own predefined function, left click beside it to have a
-    look.
+  - Every crate has their own predefined function, left click beside the crate to
+    have a look.
   - 'Push the crate to the switch. '
   - Green switch indicate that the crate is in a correct location.
-  - Red switch indicate that the crate is in an incorrection location.
+  - Red switch indicate that the crate is in an incorrect location.
   - If you can't push the crate, or the crate is stucked, please go out and come
     back in again.
+  - 'Black solid line is the Associations Line that connect Actor with the switch '
+  - Dotted Arrow means Extend Relationship.
+  - Solid Arrow means Include Relationship.
   isPerson: 0
   shouldActivateQuest: 0
   questToMark: 

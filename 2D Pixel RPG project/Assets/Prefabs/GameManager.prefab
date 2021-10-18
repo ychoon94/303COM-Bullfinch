@@ -44,17 +44,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   charName: Woody
-  playerLevel: 3
-  currentExp: 352
+  playerLevel: 1
+  currentExp: 0
   expToNextLevel: 
-  maxLevel: 10
+  maxLevel: 30
   baseEXP: 1000
-  currentHP: 150
-  maxHP: 150
+  currentHP: 180
+  maxHP: 180
   currentMP: 20
   maxMP: 20
-  strength: 22
-  defense: 20
+  strength: 10
+  defense: 25
   wpnPwr: 0
   armrPwr: 0
   equippedWpn: 
@@ -167,7 +167,7 @@ MonoBehaviour:
   playerLevel: 1
   currentExp: 0
   expToNextLevel: 
-  maxLevel: 10
+  maxLevel: 30
   baseEXP: 1000
   currentHP: 100
   maxHP: 100

@@ -292,7 +292,7 @@ public class BattleManager : MonoBehaviour
         float atkPwr = activeBattlers[currentTurn].strength + activeBattlers[currentTurn].wpnPwr;
         float defPwr = activeBattlers[target].defense + activeBattlers[target].armrPwr;
 
-        float damageCalc = (atkPwr / defPwr) * movePower * Random.Range(.9f, 1.1f);
+        float damageCalc = (atkPwr / defPwr) * movePower * Random.Range(.8f, 1.1f);
         int damageToGive = Mathf.RoundToInt(damageCalc);
 
         Debug.Log(activeBattlers[currentTurn].charName + " is dealing " + damageCalc.ToString() + "(" + damageToGive.ToString() + ") damage to " + activeBattlers[target].charName);
