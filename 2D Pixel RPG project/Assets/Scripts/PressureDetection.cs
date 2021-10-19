@@ -47,12 +47,12 @@ public class PressureDetection : MonoBehaviour
                                 other.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
                                 Destroy(this);
                             }
-                        } 
-                        // else {
-                        // isCorrect = false;
-                        // gameObject.GetComponentInChildren<Renderer>().material.color = Color.red;
-                        // Destroy(this);
-                        // }
+                        }
+                        if (!found){
+                            isCorrect = false;
+                            gameObject.GetComponentInChildren<Renderer>().material.color = Color.red;
+                            Destroy(this);
+                        }                   
                     } else {
                         if (other.gameObject.name == triggerAnswer[i]){
                             if (activateOnStay){
@@ -67,11 +67,7 @@ public class PressureDetection : MonoBehaviour
                 }
             }
         }
-        if (!found && isHigherDifficulty) {
-            isCorrect = false;
-            gameObject.GetComponentInChildren<Renderer>().material.color = Color.red;
-            Destroy(this);
-        } else {
+        if (!found) {
             isCorrect = false;
             gameObject.GetComponentInChildren<Renderer>().material.color = Color.red;
         }
