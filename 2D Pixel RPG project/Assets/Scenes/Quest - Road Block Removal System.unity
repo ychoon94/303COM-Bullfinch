@@ -16748,6 +16748,7 @@ MonoBehaviour:
   - 'Black solid line is the Associations Line that connect Actor with the switch '
   - Dotted Arrow means Extend Relationship.
   - Solid Arrow means Include Relationship.
+  - You can push up to 3 boxes stack infront each other.
   isPerson: 0
   shouldActivateQuest: 0
   questToMark: 
