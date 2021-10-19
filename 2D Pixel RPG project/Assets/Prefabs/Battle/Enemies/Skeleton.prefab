@@ -100,7 +100,7 @@ MonoBehaviour:
   - Slash
   - Fire
   charName: Skeleton
-  currentHP: 300
+  currentHP: 350
   maxHP: 350
   currentMP: 0
   maxMP: 0

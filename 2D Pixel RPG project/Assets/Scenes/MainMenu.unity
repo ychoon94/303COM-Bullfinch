@@ -717,7 +717,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 416767b5bbdb3e24e8f385bece614050, type: 3}
-    m_FontSize: 298
+    m_FontSize: 180
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -728,9 +728,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Scrub
+  m_Text: 'Bullfinch
 
-    FYP Project'
+    Gamification of Use Case Diagram'
 --- !u!222 &1123919408
 CanvasRenderer:
   m_ObjectHideFlags: 0
