@@ -1058,9 +1058,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   crate: {fileID: 1542685441}
-  crateAnswer: Mark work completion
+  crateAnswer: Give reason
   triggerAnswer:
-  - Mark work completion
+  - Give reason
   isHigherDifficulty: 1
   activateOnEnter: 0
   activateOnStay: 1
@@ -21745,7 +21745,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lines:
-  - Mark work completion
+  - Give reason
   isPerson: 0
   shouldActivateQuest: 0
   questToMark: 

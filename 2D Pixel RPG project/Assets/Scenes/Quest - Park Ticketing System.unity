@@ -3384,6 +3384,7 @@ MonoBehaviour:
   crateAnswer: By credit card
   triggerAnswer:
   - By credit card
+  - By cash
   isHigherDifficulty: 0
   activateOnEnter: 0
   activateOnStay: 1
@@ -5809,6 +5810,7 @@ MonoBehaviour:
   crateAnswer: By cash
   triggerAnswer:
   - By cash
+  - By credit card
   isHigherDifficulty: 0
   activateOnEnter: 0
   activateOnStay: 1
