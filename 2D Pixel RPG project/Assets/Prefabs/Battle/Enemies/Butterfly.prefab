@@ -104,9 +104,9 @@ MonoBehaviour:
   maxHP: 120
   currentMP: 40
   maxMP: 40
-  strength: 2
-  defense: 2
-  wpnPwr: 2
+  strength: 10
+  defense: 3
+  wpnPwr: 10
   armrPwr: 2
   hasDied: 0
   theSprite: {fileID: 8727119307970320100}

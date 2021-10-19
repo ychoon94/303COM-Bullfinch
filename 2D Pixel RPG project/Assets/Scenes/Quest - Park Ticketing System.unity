@@ -16260,7 +16260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lines:
-  - Show ticket availability
+  - Generate monthly report
   isPerson: 0
   shouldActivateQuest: 0
   questToMark: 

@@ -241,12 +241,6 @@ MonoBehaviour:
   - 
   - 
   - 
-  - Iron Sword
-  - 
-  - 
-  - Leather Armor
-  - 
-  - Health Potion
   - 
   - 
   - 
@@ -257,15 +251,21 @@ MonoBehaviour:
   - 
   - 
   - 
-  - Mana Potion
-  - 
-  - Wooden Sword
   - 
   - 
   - 
   - 
   - 
-  - Iron Armor
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -285,7 +285,7 @@ MonoBehaviour:
   - {fileID: 3191065371665373158, guid: 39c25a03ded91a84abb0cd71243f1816, type: 3}
   - {fileID: 9105719692733535047, guid: 46973463613776f4cb1fdbd244e72419, type: 3}
   - {fileID: 3334278717200580397, guid: 4ec4a65e0983e0a4487cc03a210709ae, type: 3}
-  currentGold: 100
+  currentGold: 500
 --- !u!114 &2087867142
 MonoBehaviour:
   m_ObjectHideFlags: 0

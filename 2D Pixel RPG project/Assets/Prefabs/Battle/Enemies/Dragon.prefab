@@ -60,8 +60,24 @@ PrefabInstance:
       value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 6373866392516389634, guid: 2ad23f22860bf3c44aef669800deeb1b, type: 3}
+      propertyPath: wpnPwr
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373866392516389634, guid: 2ad23f22860bf3c44aef669800deeb1b, type: 3}
+      propertyPath: armrPwr
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373866392516389634, guid: 2ad23f22860bf3c44aef669800deeb1b, type: 3}
+      propertyPath: defense
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373866392516389634, guid: 2ad23f22860bf3c44aef669800deeb1b, type: 3}
       propertyPath: charName
       value: Dragon
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373866392516389634, guid: 2ad23f22860bf3c44aef669800deeb1b, type: 3}
+      propertyPath: strength
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6373866392516389634, guid: 2ad23f22860bf3c44aef669800deeb1b, type: 3}
       propertyPath: currentHP
