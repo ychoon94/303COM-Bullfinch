@@ -104,9 +104,9 @@ MonoBehaviour:
   currentMP: 0
   maxMP: 0
   strength: 0
-  defense: 20
+  defense: 8
   wpnPwr: 0
-  armrPwr: 15
+  armrPwr: 10
   hasDied: 0
   theSprite: {fileID: 7525413970184830}
   deadSprite: {fileID: 0}

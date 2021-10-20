@@ -35,7 +35,7 @@ public class PressureDetection : MonoBehaviour
             if (!other.CompareTag($"Crate")){
                 return;
             } else {
-                if (Vector3.Distance(transform.position,other.transform.position ) > 0.3f){
+                if (Vector3.Distance(transform.position,other.transform.position ) > 0.25f){
                     return;
                 } else {
                     if (isHigherDifficulty){

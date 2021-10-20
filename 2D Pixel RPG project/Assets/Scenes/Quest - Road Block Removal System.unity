@@ -513,7 +513,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5673923, y: 0.6224026}
+  m_Size: {x: 0.7201804, y: 0.6813277}
   m_EdgeRadius: 0
 --- !u!212 &398850834
 SpriteRenderer:
@@ -644,7 +644,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5673923, y: 0.6224026}
+  m_Size: {x: 0.7201804, y: 0.6813277}
   m_EdgeRadius: 0
 --- !u!212 &460504746
 SpriteRenderer:
@@ -16052,7 +16052,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.56079346, y: 0.62554187}
+  m_Size: {x: 0.7201804, y: 0.6813277}
   m_EdgeRadius: 0
 --- !u!114 &1505526191
 MonoBehaviour:
@@ -16463,7 +16463,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5673923, y: 0.6224026}
+  m_Size: {x: 0.7201804, y: 0.6813277}
   m_EdgeRadius: 0
 --- !u!212 &1637890811
 SpriteRenderer:
@@ -16651,7 +16651,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5673923, y: 0.6224026}
+  m_Size: {x: 0.7201804, y: 0.6813277}
   m_EdgeRadius: 0
 --- !u!212 &1725638304
 SpriteRenderer:
@@ -16737,18 +16737,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lines:
-  - Communicate with the user of the system to understand their need.
-  - Every crate has their own predefined function, left click beside the crate to
-    have a look.
-  - 'Push the crate to the switch. '
-  - Green switch indicate that the crate is in a correct location.
-  - Red switch indicate that the crate is in an incorrect location.
-  - If you can't push the crate, or the crate is stucked, please go out and come
-    back in again.
-  - 'Black solid line is the Associations Line that connect Actor with the switch '
+  - Black solid line is the Associations Line that connect Actor with the switch.
   - Dotted Arrow means Extend Relationship.
   - Solid Arrow means Include Relationship.
   - You can push up to 3 boxes stack infront each other.
+  - Green switch indicate that the crate is in a correct location.
+  - Red switch indicate that the crate is in an incorrect location.
+  - First, you must understand the Actors need. (talk to the NPC on the side)
+  - Second, find the appropriate Use Case crate. (talk to the crate)
+  - Third, push the crate to the switch.
+  - Fourth, if the switch has relationship, look carefully before pushing the crate.
+  - If you can't push the crate, or the crate is stucked, please go out and come
+    back in again.
   isPerson: 0
   shouldActivateQuest: 0
   questToMark: 
@@ -17652,7 +17652,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5673923, y: 0.6224026}
+  m_Size: {x: 0.7201804, y: 0.6813277}
   m_EdgeRadius: 0
 --- !u!212 &2096824614
 SpriteRenderer:

@@ -80,15 +80,11 @@ public class BattleManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.T))
-        {
-            BattleStart(new string[] { "Eyeball", "Spider", "Skeleton" }, false);
-        }
-
         if (battleActive)
         {
             if (turnWaiting)
             {
+                GameManager.instance.battleActive = true;
                 if (activeBattlers[currentTurn].isPlayer)
                 {
                     uiButtonsHolder.SetActive(true);
@@ -99,11 +95,6 @@ public class BattleManager : MonoBehaviour
                     //enemy should atk
                     StartCoroutine(EnemyMoveCo());
                 }
-            }
-
-            if (Input.GetKeyDown(KeyCode.N))
-            {
-                NextTurn();
             }
         }
     }
@@ -510,6 +501,7 @@ public class BattleManager : MonoBehaviour
     public void UseItem(int selectChar)
     {
         activeItem.UseItemInBattle(selectChar);
+        GameManager.instance.RemoveItem(activeItem.itemName);
         UpdateUIStats();
         CloseItemCharChoice();
         CloseItemMenu();

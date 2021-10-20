@@ -16319,15 +16319,15 @@ MonoBehaviour:
   uiButtonsHolder: {fileID: 1841973535966941564}
   movesList:
   - moveName: Slash
-    movePower: 5
+    movePower: 15
     moveCost: 0
     theEffect: {fileID: 6220827401856237126, guid: 2ddbaeeaf9cee884299d22b22da66080, type: 3}
   - moveName: Fire
-    movePower: 22
+    movePower: 23
     moveCost: 5
     theEffect: {fileID: 5390313630812771140, guid: 5ed61fbe5e9eccc4eb20a1e3e5840070, type: 3}
   - moveName: Ice
-    movePower: 17
+    movePower: 20
     moveCost: 5
     theEffect: {fileID: 4044239217753700394, guid: c36bf474c8dc3c941979a205810ae9ee, type: 3}
   - moveName: Plasma
