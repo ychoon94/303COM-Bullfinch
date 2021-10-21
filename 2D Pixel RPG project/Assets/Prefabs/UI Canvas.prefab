@@ -31571,7 +31571,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Quit
+  m_Text: Quit Game
 --- !u!1 &3164809805877756958
 GameObject:
   m_ObjectHideFlags: 0
@@ -32107,7 +32107,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Close
+  m_Text: Close Menu
 --- !u!1 &3886267163359755621
 GameObject:
   m_ObjectHideFlags: 0
@@ -50668,7 +50668,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Save
+  m_Text: Save Game
 --- !u!1 &8876172216917861851
 GameObject:
   m_ObjectHideFlags: 0
