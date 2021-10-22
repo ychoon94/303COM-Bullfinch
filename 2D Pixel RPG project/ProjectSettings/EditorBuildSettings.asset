@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RoadToAestonTown.unity
     guid: c7e16efb4fc228c4aaa0f8d7a56157a7
+  - enabled: 1
+    path: Assets/Scenes/Town.unity
+    guid: 0d2ea4c1e6371d14896195dfeee79ef1
   m_configObjects: {}
