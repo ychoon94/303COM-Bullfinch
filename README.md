@@ -6,9 +6,9 @@ If you wish to use the files below in your own commercial projects be sure to cr
 
 > Credit notices:
 > 
-> Art/Battle Bosses - Stephen 'Redshrike' Challener, MrBeast, Surt, Blarumyrran, Sharm, Zabin
-> Art/Battle Enemies - Stephen 'Redshrike' Challener, hosted by OpenGameArt.org
-> Zelda-Like Tilsets and Sprites - ArMM1998, hosted by OpenGameArt.org
-> Forest Monsters - Calciumtrice, hosted by OpenGameArt.org
-> Micro Character Bases - ThKaspar, hosted by OpenGameArt.org
-> 10 Basic Message Boxes - CharlesGabriel, hosted by OpenGameArt.org
+> - Art/Battle Bosses - Stephen 'Redshrike' Challener, MrBeast, Surt, Blarumyrran, Sharm, Zabin
+> - Art/Battle Enemies - Stephen 'Redshrike' Challener, hosted by OpenGameArt.org
+> - Zelda-Like Tilsets and Sprites - ArMM1998, hosted by OpenGameArt.org
+> - Forest Monsters - Calciumtrice, hosted by OpenGameArt.org
+> - Micro Character Bases - ThKaspar, hosted by OpenGameArt.org
+> - 10 Basic Message Boxes - CharlesGabriel, hosted by OpenGameArt.org
