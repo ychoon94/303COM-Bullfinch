@@ -40,7 +40,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
@@ -150,6 +149,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3266}
     - Class: 114
       Script: {instanceID: 3378}
+    - Class: 114
+      Script: {instanceID: 3570}
     - Class: 114
       Script: {instanceID: 3590}
     - Class: 114
@@ -1689,6 +1690,149 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 1839735485
       Script: {instanceID: 0}
+    Assets/Scenes/Town.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 58
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 66
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 622}
+    - Class: 114
+      Script: {instanceID: 1454}
+    - Class: 114
+      Script: {instanceID: 1508}
+    - Class: 114
+      Script: {instanceID: 1532}
+    - Class: 114
+      Script: {instanceID: 1614}
+    - Class: 114
+      Script: {instanceID: 1708}
+    - Class: 114
+      Script: {instanceID: 1720}
+    - Class: 114
+      Script: {instanceID: 1874}
+    - Class: 114
+      Script: {instanceID: 1966}
+    - Class: 114
+      Script: {instanceID: 2212}
+    - Class: 114
+      Script: {instanceID: 2398}
+    - Class: 114
+      Script: {instanceID: 2428}
+    - Class: 114
+      Script: {instanceID: 2564}
+    - Class: 114
+      Script: {instanceID: 2636}
+    - Class: 114
+      Script: {instanceID: 2796}
+    - Class: 114
+      Script: {instanceID: 2904}
+    - Class: 114
+      Script: {instanceID: 3136}
+    - Class: 114
+      Script: {instanceID: 3196}
+    - Class: 114
+      Script: {instanceID: 3266}
+    - Class: 114
+      Script: {instanceID: 3378}
+    - Class: 114
+      Script: {instanceID: 3570}
+    - Class: 114
+      Script: {instanceID: 3590}
+    - Class: 114
+      Script: {instanceID: 3682}
+    - Class: 114
+      Script: {instanceID: 3718}
+    - Class: 114
+      Script: {instanceID: 3736}
+    - Class: 114
+      Script: {instanceID: 3740}
+    - Class: 114
+      Script: {instanceID: 3772}
+    - Class: 114
+      Script: {instanceID: 4130}
+    - Class: 114
+      Script: {instanceID: 4138}
+    - Class: 114
+      Script: {instanceID: 4750}
+    - Class: 114
+      Script: {instanceID: 4772}
+    - Class: 114
+      Script: {instanceID: 4866}
+    - Class: 114
+      Script: {instanceID: 4956}
+    - Class: 114
+      Script: {instanceID: 5216}
+    - Class: 114
+      Script: {instanceID: 5246}
+    - Class: 114
+      Script: {instanceID: 5436}
+    - Class: 114
+      Script: {instanceID: 5454}
+    - Class: 114
+      Script: {instanceID: 5580}
+    - Class: 114
+      Script: {instanceID: 5680}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 19719996
+      Script: {instanceID: 0}
+    - Class: 156049354
+      Script: {instanceID: 0}
+    - Class: 483693784
+      Script: {instanceID: 0}
+    - Class: 1839735485
+      Script: {instanceID: 0}
     Assets/Scenes/Tutorial.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -2586,4 +2730,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Quest - Park Ticketing System.unity
   - Assets/Scenes/Quest - Visitor Tracking System.unity
   - Assets/Scenes/RoadToAestonTown.unity
-  playerPath: E:/Unity Output/Bullfinch - Gamification of Use Case Diagram.exe
+  - Assets/Scenes/Town.unity
+  playerPath: E:/Unity Output-window/Bullfinch - Gamification of Use Case Diagram.exe

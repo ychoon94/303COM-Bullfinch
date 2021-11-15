@@ -36,6 +36,7 @@ public class AudioManager : MonoBehaviour
     {
         if (soundToPlay < sfx.Length)
         {
+            sfx[soundToPlay].volume = 0.6f;
             sfx[soundToPlay].Play();
         }
     }
@@ -48,6 +49,7 @@ public class AudioManager : MonoBehaviour
 
             if (musicToPlay < bgm.Length)
             {
+                bgm[musicToPlay].volume = 0.2f;
                 bgm[musicToPlay].Play();
             }
         }

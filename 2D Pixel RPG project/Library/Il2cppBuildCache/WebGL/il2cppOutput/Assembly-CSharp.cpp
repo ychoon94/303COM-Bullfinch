@@ -7694,6 +7694,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mEE9EC7EB5C7DC3E95B94
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mE1F187520BD83FB7D86A6D850710C4D42B864E90 (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A * ___x0, Object_tF2F3778131EFF286AF62B7B013A170F95A91571A * ___y1, const RuntimeMethod* method);
 // System.Void UnityEngine.Object::DontDestroyOnLoad(UnityEngine.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_DontDestroyOnLoad_m03007A68ABBA4CCD8C27B944964983395E7640F9 (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A * ___target0, const RuntimeMethod* method);
+// System.Void UnityEngine.AudioSource::set_volume(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_volume_m37B6B2EACA7C2C18ABEE55EE5EA404085E94EE58 (AudioSource_tC4BF65AF8CDCAA63724BB3CA59A7A29249269E6B * __this, float ___value0, const RuntimeMethod* method);
 // System.Void UnityEngine.AudioSource::Play()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_Play_mED16664B8F8F3E4D68785C8C00FC96C4DF053AE1 (AudioSource_tC4BF65AF8CDCAA63724BB3CA59A7A29249269E6B * __this, const RuntimeMethod* method);
 // System.Boolean UnityEngine.AudioSource::get_isPlaying()
@@ -8598,19 +8600,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_PlaySFX_m3ABCB0227CB62E48AB
 		AudioSourceU5BU5D_t29E81D0D3B6FB9B7E7DDDBDDA32E38026AA4D12B* L_1 = __this->get_sfx_4();
 		if ((((int32_t)L_0) >= ((int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_1)->max_length))))))
 		{
-			goto IL_0018;
+			goto IL_002a;
 		}
 	}
 	{
-		// sfx[soundToPlay].Play();
+		// sfx[soundToPlay].volume = 0.6f;
 		AudioSourceU5BU5D_t29E81D0D3B6FB9B7E7DDDBDDA32E38026AA4D12B* L_2 = __this->get_sfx_4();
 		int32_t L_3 = ___soundToPlay0;
 		int32_t L_4 = L_3;
 		AudioSource_tC4BF65AF8CDCAA63724BB3CA59A7A29249269E6B * L_5 = (L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_4));
-		AudioSource_Play_mED16664B8F8F3E4D68785C8C00FC96C4DF053AE1(L_5, /*hidden argument*/NULL);
+		AudioSource_set_volume_m37B6B2EACA7C2C18ABEE55EE5EA404085E94EE58(L_5, (0.600000024f), /*hidden argument*/NULL);
+		// sfx[soundToPlay].Play();
+		AudioSourceU5BU5D_t29E81D0D3B6FB9B7E7DDDBDDA32E38026AA4D12B* L_6 = __this->get_sfx_4();
+		int32_t L_7 = ___soundToPlay0;
+		int32_t L_8 = L_7;
+		AudioSource_tC4BF65AF8CDCAA63724BB3CA59A7A29249269E6B * L_9 = (L_6)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_8));
+		AudioSource_Play_mED16664B8F8F3E4D68785C8C00FC96C4DF053AE1(L_9, /*hidden argument*/NULL);
 	}
 
-IL_0018:
+IL_002a:
 	{
 		// }
 		return;
@@ -8629,7 +8637,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_PlayBGM_m5EA31CED9670C52BA5
 		L_4 = AudioSource_get_isPlaying_mEA69477C77D542971F7B454946EF25DFBE0AF6A8(L_3, /*hidden argument*/NULL);
 		if (L_4)
 		{
-			goto IL_002d;
+			goto IL_003f;
 		}
 	}
 	{
@@ -8640,19 +8648,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_PlayBGM_m5EA31CED9670C52BA5
 		AudioSourceU5BU5D_t29E81D0D3B6FB9B7E7DDDBDDA32E38026AA4D12B* L_6 = __this->get_bgm_5();
 		if ((((int32_t)L_5) >= ((int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_6)->max_length))))))
 		{
-			goto IL_002d;
+			goto IL_003f;
 		}
 	}
 	{
-		// bgm[musicToPlay].Play();
+		// bgm[musicToPlay].volume = 0.2f;
 		AudioSourceU5BU5D_t29E81D0D3B6FB9B7E7DDDBDDA32E38026AA4D12B* L_7 = __this->get_bgm_5();
 		int32_t L_8 = ___musicToPlay0;
 		int32_t L_9 = L_8;
 		AudioSource_tC4BF65AF8CDCAA63724BB3CA59A7A29249269E6B * L_10 = (L_7)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_9));
-		AudioSource_Play_mED16664B8F8F3E4D68785C8C00FC96C4DF053AE1(L_10, /*hidden argument*/NULL);
+		AudioSource_set_volume_m37B6B2EACA7C2C18ABEE55EE5EA404085E94EE58(L_10, (0.200000003f), /*hidden argument*/NULL);
+		// bgm[musicToPlay].Play();
+		AudioSourceU5BU5D_t29E81D0D3B6FB9B7E7DDDBDDA32E38026AA4D12B* L_11 = __this->get_bgm_5();
+		int32_t L_12 = ___musicToPlay0;
+		int32_t L_13 = L_12;
+		AudioSource_tC4BF65AF8CDCAA63724BB3CA59A7A29249269E6B * L_14 = (L_11)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_13));
+		AudioSource_Play_mED16664B8F8F3E4D68785C8C00FC96C4DF053AE1(L_14, /*hidden argument*/NULL);
 	}
 
-IL_002d:
+IL_003f:
 	{
 		// }
 		return;
